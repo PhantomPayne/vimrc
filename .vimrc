@@ -20,6 +20,7 @@
  " My Bundles here:
  " Refer to |:NeoBundle-examples|.
  " Note: You don't set neobundle setting in .gvimrc!
+ NeoBundle 'bling/vim-airline'
 
  call neobundle#end()
 
