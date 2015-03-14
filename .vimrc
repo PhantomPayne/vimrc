@@ -21,6 +21,8 @@
  " Refer to |:NeoBundle-examples|.
  " Note: You don't set neobundle setting in .gvimrc!
  NeoBundle 'bling/vim-airline'
+ 
+ NeoBundle 'airblade/vim-gitgutter'
 
  call neobundle#end()
 
@@ -32,3 +34,6 @@
  NeoBundleCheck
 
 set laststatus=2
+
+" TODO: add airline customizations
+" TODO: add gitgutter customizations and leader keys
